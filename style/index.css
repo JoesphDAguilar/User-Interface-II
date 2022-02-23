@@ -29,10 +29,12 @@ h3 {
 
 a {
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
 }
 
 p {
     font-family: 'Open Sans', sans-serif;
+    font-size: 1.1rem;
 }
 
 /* Header Styles */
@@ -56,10 +58,10 @@ header {
 }
 
 header h1 {
-    margin-left: 2%;
+    margin-left: 3%;
     margin-top: -.5%;
     padding-bottom: 1%;
-    font-size: 3rem;
+    font-size: 2.6rem;
 }
 
 header nav {
@@ -92,7 +94,7 @@ header nav a {
     justify-content: flex-end;
     align-items: flex-start;
     margin-top: -30%;
-    margin-left: 55%;
+    margin-left: 53%;
     padding: 4%;
     line-height: 2rem;
 }
@@ -107,7 +109,7 @@ header nav a {
     background-color: #6c757d;
     padding: 2%;
     border-radius: 5%;
-    margin: 4% 0;
+    margin: 5% 0;
 }
 
 /* Project Section Styles */
@@ -117,12 +119,12 @@ header nav a {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 4% 15%;
-    width: 75%;
+    margin: 0% 3% 8%;
+    width: 100%;
 }
 
 .projectPad {
-    padding-top: 4%;
+    padding-top: 5%;
     padding-right: 5%;
 }
 
@@ -144,6 +146,7 @@ footer  a {
     background-color: #495057;
     color: #f8f9fa;
     padding: 1%;
+    border-radius: 4%;
 }
 
 .footerContainer {
@@ -154,5 +157,6 @@ footer  a {
 }
 
 .footerContainer h3 {
-    padding-bottom: 2%;
+    padding-bottom: 1%;
+    font-size: 2rem;
 }
