@@ -5,14 +5,34 @@
     margin: 0;
     max-width: 100%;
     /*put a border around everything to see where it stops and starts*/
-    /* border:1px solid red;    */
+    /* border:1px solid red;     */
     color: #f8f9fa;
 }
 
-/* body Styles */
+/* General Styles */
 
 body {
     background-color: #495057;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* Header Styles */
@@ -32,13 +52,13 @@ header {
     width: 8%;
     align-self: flex-end;
     margin-top: -8%;
-    margin-right: 2%;
+    margin-right: 1%;
 }
 
 header h1 {
     margin-left: 2%;
     margin-top: -.5%;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     font-size: 3rem;
 }
 
@@ -61,8 +81,8 @@ header nav a {
 /* About Section Styles */
 
 .aboutImg {
-    width: 40%;
-    margin-left: 2%;
+    width: 45%;
+    margin-left: 4.8%;
     margin-top: 1%;
 }
 .aboutContainer {
@@ -71,14 +91,14 @@ header nav a {
     width: 40%;
     justify-content: flex-end;
     align-items: flex-start;
-    margin-top: -26%;
-    margin-left: 50%;
+    margin-top: -30%;
+    margin-left: 55%;
     padding: 4%;
     line-height: 2rem;
 }
 
 .aboutContainer h2 {
-    font-size: 3rem;
+    font-size: 2.6rem;
     padding-bottom: 4%;
 }
 
