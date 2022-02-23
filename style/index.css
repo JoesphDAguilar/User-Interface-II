@@ -8,6 +8,8 @@
     border:1px solid red; 
 }
 
+/* body Styles */
+
 body {
     background-color: #8b8c89;
 }
@@ -43,3 +45,34 @@ header nav a {
     color: black;
 }
 
+/* About Section Styles */
+
+.aboutImg {
+    width: 40%;
+    display: flex;
+    margin-left: 4%;
+}
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: -25%;
+    margin-left: 50%;
+    padding: 4%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10% 15%;
+    width: 70%;
+}
+
+.projectPad {
+    padding-top: 4%;
+    padding-right: 5%;
+}
