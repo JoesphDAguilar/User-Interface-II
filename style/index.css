@@ -13,6 +13,8 @@
 
 body {
     background-color: #495057;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -57,6 +59,10 @@ header {
     margin-right: 1%;
 }
 
+.headerImg:hover {
+    width: 10.6%;
+}
+
 header h1 {
     margin-left: 3%;
     margin-top: -.5%;
@@ -78,6 +84,12 @@ header nav a {
     padding: 1%;
 }
 
+header nav a:hover {
+    padding: 1.5%;
+    font-size: 1.5rem;
+    text-shadow: .3rem .4rem #212529;
+}
+
 
 
 /* About Section Styles */
@@ -87,6 +99,8 @@ header nav a {
     margin-left: 4.8%;
     margin-top: 1%;
 }
+
+
 .aboutContainer {
     display: flex;
     flex-direction: column;
@@ -112,6 +126,12 @@ header nav a {
     margin: 5% 0;
 }
 
+.aboutContainer a:hover {
+    padding: 3.5%;
+    font-size: 1.5rem;
+    text-shadow: .3rem .4rem #212529;
+}
+
 /* Project Section Styles */
 
 .projectContainer {
@@ -121,6 +141,10 @@ header nav a {
     justify-content: center;
     margin: 0% 3% 8%;
     width: 100%;
+}
+
+#projectSection img:hover{
+    padding: 5%;
 }
 
 .projectPad {
@@ -147,6 +171,12 @@ footer  a {
     color: #f8f9fa;
     padding: 1%;
     border-radius: 4%;
+}
+
+footer a:hover {
+    padding: 1.5%;
+    font-size: 1.5rem;
+    text-shadow: .3rem .4rem #212529;
 }
 
 .footerContainer {
