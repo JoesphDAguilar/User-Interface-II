@@ -192,7 +192,7 @@ footer a:hover {
 }
 
 /* Media Queries Section */
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 500px) and (max-width: 800px) {
 
     /* html section */
 
@@ -265,16 +265,20 @@ footer a:hover {
         margin-right: 10%;
     }
 
+    /* Project Section */
+
     #projectSection {
-        margin-left: 10%;
+        margin-left: 7%;
     }
+
+    /* Footer Section */
 
     footer {
         height: 26vh;
     }
 
     .footerContainer {
-        margin-left: 10%;
+        margin-left: 13%;
     }
 
     .footerContainer a {
