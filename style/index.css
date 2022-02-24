@@ -194,17 +194,21 @@ footer a:hover {
 /* Media Queries Section */
 @media (min-width: 600px) and (max-width: 800px) {
 
+    /* html section */
+
     html {
         overflow-x: hidden;
     }
+
+    /* header section */
     header {
-        height: 62vh;
+        height: 60vh;
     }
     header h1 {
         font-size: 3rem;
         display: flex;
         justify-content: center;
-        padding-top: 5%;
+        padding-top: 3%;
     }
 
     header nav {
@@ -229,5 +233,51 @@ footer a:hover {
 
     .headerImg:hover, .headerImg:active{
         width: 20%;
+    }
+
+    /* about section */
+
+    .aboutImg {
+        width: 80%;
+    }
+
+    #aboutSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutContainer {
+        margin: 0;
+        align-self: center;
+        width: 80%;
+        margin-left: 11%;
+        padding-top: 5%;
+    }
+
+    .aboutContainer h2 {
+        margin-left: 5%;
+    }
+
+    .aboutContainer a {
+        align-self: center;
+        margin-right: 10%;
+    }
+
+    #projectSection {
+        margin-left: 10%;
+    }
+
+    footer {
+        height: 26vh;
+    }
+
+    .footerContainer {
+        margin-left: 10%;
+    }
+
+    .footerContainer a {
+         margin-top: 1.5%;
     }
 }
