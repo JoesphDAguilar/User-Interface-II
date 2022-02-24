@@ -190,3 +190,44 @@ footer a:hover {
     padding-bottom: 1%;
     font-size: 2rem;
 }
+
+/* Media Queries Section */
+@media (min-width: 600px) and (max-width: 800px) {
+
+    html {
+        overflow-x: hidden;
+    }
+    header {
+        height: 62vh;
+    }
+    header h1 {
+        font-size: 3rem;
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header nav a {
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        margin: 0 40% .5% 40%;
+    }
+
+    .headerImg {
+        width: 15%;
+        align-self: flex-end;
+        margin-top: -20%;
+        margin-right: 10%;
+    }
+
+    .headerImg:hover, .headerImg:active{
+        width: 20%;
+    }
+}
